@@ -149,6 +149,8 @@
                     config.resize_enabled = false;
                     config.autoGrow_minHeight = 80;
                     config.removePlugins = 'footnotes';
+                    config.stylesSet = false;
+                    config.customConfig = '';
 
                     // If we focus on the dialog editor we should clear the radios to avoid any
                     // confusion. Similarly, if we focus on a radio, we should clear the editor
